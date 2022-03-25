@@ -2,7 +2,7 @@
 
 This architecture shows how to extend an on-premises Active Directory domain to Azure to provide distributed authentication services.
 
-![Secure hybrid network architecture with Active Directory](./images/adds-extend-domain.png)
+![Diagram that shows a secure hybrid network architecture with Active Directory.](./images/adds-extend-domain.png)
 
 *Download a [Visio file][visio-download] of this architecture.*
 
@@ -127,6 +127,13 @@ Azure Virtual Network is free. Every subscription is allowed to create up to 50 
 
 ## Next steps
 
+- [What is Azure Active Directory?](/azure/active-directory/fundamentals/active-directory-whatis)
+- [Desired State Configuration (DSC)][dsc-overview]
+- [Planning Operations Master Role Placement][ad-ds-operations-masters]
+
+## Related resources
+
+- [Connect an on-premises network to Azure using a VPN gateway](../hybrid-networking/vpn.yml)
 - Learn the best practices for [creating an AD DS resource forest][adds-resource-forest] in Azure.
 - Learn the best practices for [creating an Active Directory Federation Services (AD FS) infrastructure][adfs] in Azure.
 
